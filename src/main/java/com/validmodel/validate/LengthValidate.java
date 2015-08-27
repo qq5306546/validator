@@ -1,10 +1,10 @@
-package com.validator.validate;
+package com.validmodel.validate;
 
 import java.lang.annotation.Annotation;
 
-import com.validator.Validator;
-import com.validator.annotation.ValidateAnnotation.Length;
-import com.validator.exception.ValidateException;
+import com.validmodel.Validator;
+import com.validmodel.annotation.ValidateAnnotation.Length;
+import com.validmodel.exception.ValidateException;
 
 public class LengthValidate extends Validator {
 

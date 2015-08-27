@@ -1,10 +1,10 @@
-package com.validator.validate;
+package com.validmodel.validate;
 
 import java.lang.annotation.Annotation;
 
-import com.validator.Validator;
-import com.validator.annotation.ValidateAnnotation.Regex;
-import com.validator.exception.ValidateException;
+import com.validmodel.Validator;
+import com.validmodel.annotation.ValidateAnnotation.Regex;
+import com.validmodel.exception.ValidateException;
 
 public class RegexValidate extends Validator {
 

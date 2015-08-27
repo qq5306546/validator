@@ -1,11 +1,11 @@
-package com.validator.validate;
+package com.validmodel.validate;
 
 import java.lang.annotation.Annotation;
 
-import com.validator.Validator;
-import com.validator.annotation.ValidateAnnotation.Letter;
-import com.validator.annotation.ValidateAnnotation.Letter.LetterType;
-import com.validator.exception.ValidateException;
+import com.validmodel.Validator;
+import com.validmodel.annotation.ValidateAnnotation.Letter;
+import com.validmodel.annotation.ValidateAnnotation.Letter.LetterType;
+import com.validmodel.exception.ValidateException;
 public class LetterValidate extends Validator {
 
 	private final String REGEX_ALL 		= "^[A-Za-z]+$";

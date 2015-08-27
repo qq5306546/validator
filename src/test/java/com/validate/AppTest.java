@@ -2,8 +2,8 @@ package com.validate;
 
 import java.math.BigDecimal;
 
-import com.validator.Validator;
-import com.validator.exception.ValidateException;
+import com.validmodel.Validator;
+import com.validmodel.exception.ValidateException;
 
 import junit.framework.TestCase;
 

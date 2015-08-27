@@ -1,4 +1,4 @@
-package com.validator.exception;
+package com.validmodel.exception;
 
 @SuppressWarnings("serial")
 public class ValidateException extends Exception {

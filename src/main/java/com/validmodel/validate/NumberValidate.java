@@ -1,10 +1,10 @@
-package com.validator.validate;
+package com.validmodel.validate;
 
 import java.lang.annotation.Annotation;
 
-import com.validator.Validator;
-import com.validator.annotation.ValidateAnnotation.Number.NumberType;
-import com.validator.exception.ValidateException;
+import com.validmodel.Validator;
+import com.validmodel.annotation.ValidateAnnotation.Number.NumberType;
+import com.validmodel.exception.ValidateException;
 
 public class NumberValidate extends Validator {
 	
@@ -15,7 +15,7 @@ public class NumberValidate extends Validator {
 
 	@Override
 	protected void vaildate(Object value, Annotation anno) throws ValidateException {
-		com.validator.annotation.ValidateAnnotation.Number annoNumber = (com.validator.annotation.ValidateAnnotation.Number) anno;
+		com.validmodel.annotation.ValidateAnnotation.Number annoNumber = (com.validmodel.annotation.ValidateAnnotation.Number) anno;
 		String val = String.valueOf(value);
 		if (annoNumber.value().equals(NumberType.POSITIVE)) {
 			if (!match(REGEX_POSITIVE, val))

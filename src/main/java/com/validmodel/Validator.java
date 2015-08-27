@@ -1,4 +1,4 @@
-package com.validator;
+package com.validmodel;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.validator.exception.ValidateException;
+import com.validmodel.exception.ValidateException;
 
 public abstract class Validator {
 

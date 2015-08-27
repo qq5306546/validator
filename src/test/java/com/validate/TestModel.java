@@ -2,9 +2,9 @@ package com.validate;
 
 import java.math.BigDecimal;
 
-import com.validator.annotation.ValidateAnnotation.Number;
-import com.validator.annotation.ValidateAnnotation.Number.NumberType;
-import com.validator.annotation.ValidateAnnotation.URL;
+import com.validmodel.annotation.ValidateAnnotation.Number;
+import com.validmodel.annotation.ValidateAnnotation.URL;
+import com.validmodel.annotation.ValidateAnnotation.Number.NumberType;
 
 public class TestModel {
 
